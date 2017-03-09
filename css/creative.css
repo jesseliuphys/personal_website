@@ -147,6 +147,15 @@ aside {
     color: #F05F40;
   }
 }
+.pifacade_bkgimg {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-image: url('../img/PIfacade_dark_2000.jpg');
+  color: white;
+}
 header {
   position: relative;
   width: 100%;
