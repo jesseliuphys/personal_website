@@ -1,0 +1,12 @@
+/* 
+PLAN:
+- Entire section will be coloured with the page theme colour (one of the blues)
+- Each of the panels will be a page theme colour derivative (use color mod)
+- panels can either be same colour, or use alternating pattern, doesnt really matter
+- on hover/focus make the background the original page theme - meaningless really, but cool to play with!
+*/
+
+.panel {
+  padding: 1rem;
+  height: 100%; 
+}

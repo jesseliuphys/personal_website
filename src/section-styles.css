@@ -1,0 +1,54 @@
+.turquoise {
+  color: color(#539BC6 l(-15%));
+  background-color: currentcolor;
+  & :--heading, & p {
+    color: white;
+  } 
+}
+
+.bg-dark {
+	padding-top: 2rem;
+	& :--heading, & p, & i {
+    color: white;
+  } 
+}
+
+/* Custom styles for the home page (index.html)*/
+#home { 
+  & header {
+    height: 100vh;
+    background: var(--desaturation-filter), url(../img/rollingthunderselfie.jpg);
+    background-size: cover;
+  }
+}
+
+/* Custom styles for the research page (research.html)*/
+#research {
+  & header {
+    background: var(--desaturation-filter), url(../img/fireworks-angled-2000.jpg);
+    background-size: cover;
+  }
+  & i {
+    color: color(var(--blue1) s(-20%));
+  }
+}
+
+/* Custom styles for the outreach page (outreach.html)*/
+#outreach {
+  & header {
+    background: var(--desaturation-filter), url(../img/dm_talk.jpg);
+    background-size: cover;
+  }
+  & .card-title.btn {
+    color: white;
+    background-color: var(--blue3);
+    box-shadow: var(--btn-shadow) color(var(--blue3) l(-15%));
+    &:active, &:active:focus {
+      box-shadow: var(--btn-press-shadow) color(var(--blue3) l(-20%));
+    }
+    &:focus {
+      box-shadow: var(--btn-shadow) color(var(--blue3) l(-15%));
+      border-color: color(var(--blue3) l(-15%));
+    }
+  }
+}
