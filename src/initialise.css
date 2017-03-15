@@ -1,0 +1,105 @@
+@custom-selector :--heading h1, h2, h3, h4, h5, h6;
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 14px;
+  @media (--sm-viewport) {
+    font-size: 16px;
+  }
+}
+
+p {
+  max-width: 48rem;
+}
+
+nav, header, footer, .btn, :--heading {
+  font-family: 'League Spartan';
+}
+
+:--heading {
+  margin-bottom: 0.75rem;
+}
+
+header { 
+  padding: 7rem 1rem 4rem;
+  text-align: center; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  & .header-title {
+    letter-spacing: 5vw;
+    margin-right: -5vw;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+  & .header-subtitle {
+    margin: 0.5rem 0;
+  }
+  & hr {
+      max-width: 1.5rem;
+      border-color: white;
+    }
+  & .linknav {
+    margin-top: 1rem;
+    margin-bottom: 0;
+  }
+  & :--heading, & p {
+    color: white;
+    text-shadow: 0 0 4px gray(0%, 0.25);
+  }
+  @media (--md-viewport) {
+    & .header-title {
+      letter-spacing: 1em;
+      margin-right: -1em;
+    }
+  }
+}
+
+section {
+  padding: 4rem 0 2rem;
+  & section {
+    padding-top: 2rem;
+  }
+}
+
+article {
+  & i {
+    transition: all 200ms;
+    padding: 0.5rem 0 1.5rem;
+  }
+  &:hover i {
+    transform: scale(1.05);
+    filter: saturate(180%) brightness(85%);
+  }
+}
+
+.navbar {
+  font-size: 0.875rem;
+  transition: background-color 240ms ease-out, padding 120ms;
+  padding: 1.25rem 1rem;
+  &.scrolled {
+    padding: 0.5rem 1rem;
+  }
+}
+
+.section-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+  text-align: center;
+  & :--heading {
+    text-transform: uppercase;
+  }  
+}
+
+.linknav {
+  & a:not(:last-child) {
+    margin-right: 1rem;
+  }
+}
+
