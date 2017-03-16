@@ -34,7 +34,7 @@
 /* Custom styles for the research page (research.html)*/
 #research {
   & header {
-    background: var(--desaturation-filter), url(../img/fireworks-angled-2000.jpg);
+    background: var(--desaturation-filter), url(../img/PIfacade_dark_2000.jpg);
     background-size: cover;
   }
   & i {
@@ -45,7 +45,7 @@
 /* Custom styles for the outreach page (outreach.html)*/
 #outreach {
   & header {
-    background: var(--desaturation-filter), url(../img/PIfacade_dark_2000.jpg);
+    background: var(--desaturation-filter), url(../img/oxspires.jpg);
     background-size: cover;
   }
   & .card-title.btn {
@@ -65,7 +65,7 @@
 /* Custom styles for the design page (design.html)*/
 #design {
   & header {
-    background: var(--desaturation-filter), url(../img/portfolio/print/Page1.JPG);
+    background: var(--desaturation-filter), url(../img/fireworks-angled-2000.JPG);
     background-size: cover;
   }
   & .card {
