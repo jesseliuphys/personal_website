@@ -16,9 +16,9 @@
 .card-block {
   & :--heading, & p {
     color: gray(20%);
-    &:last-of-type {
-      margin-bottom: 0;
-    }
+  }
+  &:last-child {
+    margin-bottom: 0;
   }
   & img {
     max-width: 100%;
