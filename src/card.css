@@ -1,12 +1,25 @@
 .card {
-  box-shadow: 0 0 4px gray(0%, 0.125), 0 4px 8px gray(0%, 0.2);
+  box-shadow: 0 1px 4px gray(0%, 0.125);
   margin: 1rem 0;
+  & a img {
+    width: 100%;
+    &.card-img-top {
+      border-bottom: 0.25rem solid transparent;
+    }
+    &.card-img-bottom {
+      border-top: 0.25rem solid transparent;
+    }
+  }
 }
 .card-block {
   & :--heading, & p {
     color: gray(20%);
+    &:last-of-type {
+      margin-bottom: 0;
+    }
   }
 }
+
 .card-subtitle {
   margin-bottom: 0.75rem;
   &:first-of-type {

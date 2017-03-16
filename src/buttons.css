@@ -10,7 +10,7 @@
   box-shadow: var(--btn-shadow) gray(55%);
   transition: opacity 200ms, background-color 200ms;
   &:hover, &:focus {
-    opacity: 0.75;
+    opacity: 0.8;
     color: currentcolor;   
   }
   &:active, &:active:focus {

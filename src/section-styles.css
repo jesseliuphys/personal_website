@@ -22,6 +22,15 @@
   }
 }
 
+/* Custom styles for the design page (design.html)*/
+#about {
+  & header {
+    background: var(--desaturation-filter), url(../img/selfie1.jpg);
+    background-size: cover;
+  }
+}
+
+
 /* Custom styles for the research page (research.html)*/
 #research {
   & header {
@@ -29,7 +38,7 @@
     background-size: cover;
   }
   & i {
-    color: color(var(--blue1) s(-20%));
+    color: color(var(--blue2) s(-20%));
   }
 }
 
@@ -49,6 +58,36 @@
     &:focus {
       box-shadow: var(--btn-shadow) color(var(--blue3) l(-15%));
       border-color: color(var(--blue3) l(-15%));
+    }
+  }
+}
+
+/* Custom styles for the design page (design.html)*/
+#design {
+  & header {
+    background: var(--desaturation-filter), url(../img/portfolio/print/Page1.JPG);
+    background-size: cover;
+  }
+  & .card {
+    & a img.card-img-top, & a img.card-img-bottom {
+      border-color: var(--sunny-orange);
+      transition: all 200ms;
+      &:--interact {
+        opacity: 0.85;
+        border-color: color(var(--sunny-orange) l(+20%));
+      }
+    }
+  }
+  & .card-title.btn {
+    color: white;
+    background-color: var(--sunny-orange);
+    box-shadow: var(--btn-shadow) color(var(--sunny-orange) l(-15%));
+    &:active, &:active:focus {
+      box-shadow: var(--btn-press-shadow) color(var(--sunny-orange) l(-20%));
+    }
+    &:focus {
+      box-shadow: var(--btn-shadow) color(var(--sunny-orange) l(-15%));
+      border-color: color(var(--sunny-orange) l(-15%));
     }
   }
 }

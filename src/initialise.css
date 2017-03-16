@@ -1,4 +1,5 @@
 @custom-selector :--heading h1, h2, h3, h4, h5, h6;
+@custom-selector :--interact :hover, :active:focus, :focus;
 
 html,
 body {
@@ -59,7 +60,7 @@ header {
 }
 
 section {
-  padding: 4rem 0 2rem;
+  padding: 4rem 0;
   & section {
     padding-top: 2rem;
   }
@@ -90,14 +91,19 @@ article {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 1rem;
   text-align: center;
   & :--heading {
     text-transform: uppercase;
   }  
 }
 
+/* Use this class if this intro text and the next section have the same background */
+.intro {
+  margin-bottom: -4rem;
+}
+
 .linknav {
+  margin-bottom: 0.5rem;
   & a:not(:last-child) {
     margin-right: 1rem;
   }
