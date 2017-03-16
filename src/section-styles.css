@@ -45,7 +45,7 @@
 /* Custom styles for the outreach page (outreach.html)*/
 #outreach {
   & header {
-    background: var(--desaturation-filter), url(../img/dm_talk.jpg);
+    background: var(--desaturation-filter), url(../img/PIfacade_dark_2000.jpg);
     background-size: cover;
   }
   & .card-title.btn {
