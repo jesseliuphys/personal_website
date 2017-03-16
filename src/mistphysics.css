@@ -8,6 +8,7 @@ Import sequences
 5. panel (custom styles for specifically formatted bootstrap columns)
 6. navbar (customisations of bootstrap navbar - coloring and such)
 */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,700');
 @import "../fonts/league-spartan/stylesheet.css";
 @import "./variables.css";
 @import "./initialise.css";
