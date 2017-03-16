@@ -65,7 +65,7 @@
 /* Custom styles for the design page (design.html)*/
 #design {
   & header {
-    background: var(--desaturation-filter), url(../img/fireworks-angled-2000.JPG);
+    background: var(--desaturation-filter), url(../img/fireworks-angled-2000.jpg);
     background-size: cover;
   }
   & .card {
