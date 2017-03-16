@@ -1,8 +1,10 @@
 .card {
   box-shadow: 0 1px 4px gray(0%, 0.125);
   margin: 1rem 0;
-  & a img {
+  & img {
     width: 100%;
+  }
+  & a img {    
     &.card-img-top {
       border-bottom: 0.25rem solid transparent;
     }
@@ -17,6 +19,9 @@
     &:last-of-type {
       margin-bottom: 0;
     }
+  }
+  & img {
+    max-width: 100%;
   }
 }
 

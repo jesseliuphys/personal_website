@@ -66,14 +66,17 @@ section {
   }
 }
 
-article {
-  & i {
-    transition: all 200ms;
-    padding: 0.5rem 0 1.5rem;
-  }
+article { 
   &:hover i {
     transform: scale(1.05);
     filter: saturate(180%) brightness(85%);
+  }
+}
+
+article, .section-header {
+  & i {
+    transition: all 200ms;
+    padding: 0.5rem 0 1.5rem;
   }
 }
 
@@ -88,13 +91,13 @@ article {
 
 .section-header {
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  align-items: center;
-  text-align: center;
+  align-items: center;  
+  flex-direction: column;
+  text-align: center; 
   & :--heading {
     text-transform: uppercase;
-  }  
+  } 
 }
 
 /* Use this class if this intro text and the next section have the same background */
