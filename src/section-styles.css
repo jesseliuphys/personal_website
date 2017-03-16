@@ -25,7 +25,7 @@
 /* Custom styles for the design page (design.html)*/
 #about {
   & header {
-    background: var(--desaturation-filter), url(../img/selfie1.jpg);
+    background: var(--desaturation-filter), url(../img/maple_leaf.jpg);
     background-size: cover;
   }
 }
