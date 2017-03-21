@@ -1,10 +1,11 @@
 function checkScroll(){
   var startY = $('.navbar').height() * 2; //The point where the navbar changes in px
+  var navBreakpoint = 768;
 
-  if($(window).scrollTop() > startY){
+  if(($(window).scrollTop() > startY) || ($(window).width() < navBreakpoint)){
     $('.navbar').addClass("scrolled bg-faded navbar-light");
     $('.navbar').removeClass("navbar-inverse");
-  } else {
+  } else if($(window).width() >= navBreakpoint)  {
   	$('.navbar').addClass("navbar-inverse");
     $('.navbar').removeClass("scrolled bg-faded navbar-light");
   }

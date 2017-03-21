@@ -14,7 +14,7 @@
   --slides-orange: #eb8147;
   --journal-blue: #448db0;
 
-  --font-family-base: 'Open Sans', sans-serif;
+  --font-family-base: "Open Sans", sans-serif;
 
   --font-family-sans-serif:
     -apple-system,
@@ -25,6 +25,7 @@
     "Helvetica Neue", Arial, sans-serif;
 }
 
+@custom-media --xs-only (max-width: 36rem);
 @custom-media --sm-viewport (min-width: 36rem);
 @custom-media --md-viewport (min-width: 48rem);
 @custom-media --lg-viewport (min-width: 62rem);

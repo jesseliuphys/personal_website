@@ -88,6 +88,22 @@ article, .section-header {
   &.scrolled {
     padding: 0.5rem 1rem;
   }
+  & .navbar-collapse {
+    justify-content: flex-end;
+
+  }
+  & .container {
+    margin: 0;
+  }
+  @media (--sm-viewport) {
+    & .container {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  @media (--xs-only) {
+    background-color: #f7f7f7;
+  }
 }
 
 .section-header {
