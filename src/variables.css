@@ -1,0 +1,32 @@
+:root {
+  --btn-shadow: 0px 6px 0px 0px;
+  --btn-press-shadow: 0px 4px 0px 0px;
+
+  --desaturation-filter: linear-gradient(gray(25%, 75%), gray(25%, 75%));
+
+  --blue1: #5386c6;
+  --blue2: #53abc6;
+  --blue3: #539bc6;
+  --sunny-orange: #e3a51a;
+
+  --arxiv-red: #d23d2c;
+  --inspire-blue: #75bcd7;
+  --slides-orange: #eb8147;
+  --journal-blue: #448db0;
+
+  --font-family-base: "Open Sans", sans-serif;
+
+  --font-family-sans-serif:
+    -apple-system,
+    system-ui,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    "Roboto",
+    "Helvetica Neue", Arial, sans-serif;
+}
+
+@custom-media --xs-only (max-width: 36rem);
+@custom-media --sm-viewport (min-width: 36rem);
+@custom-media --md-viewport (min-width: 48rem);
+@custom-media --lg-viewport (min-width: 62rem);
+@custom-media --xl-viewport (min-width: 75rem);
