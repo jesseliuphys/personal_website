@@ -1,29 +1,30 @@
 {
-  "name": "creative",
-  "title": "Creative",
-  "version": "1.1.0",
-  "homepage": "http://startbootstrap.com/template-overviews/creative",
-  "author": "Start Bootstrap",
-  "license": {
-    "type": "MIT",
-    "url": "https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE"
-  },
-  "devDependencies": {
-    "bootstrap": "^3.3.6",
-    "browser-sync": "^2.13.0",
-    "font-awesome": "^4.6.3",
-    "gulp": "^3.9.1",
-    "gulp-clean-css": "^2.0.10",
-    "gulp-header": "^1.8.7",
-    "gulp-less": "^3.1.0",
-    "gulp-rename": "^1.2.2",
-    "gulp-uglify": "^1.5.4",
-    "jquery": "^1.11.3",
-    "magnific-popup": "^1.1.0",
-    "scrollreveal": "^3.1.4"
+  "name": "mistphysics",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "Experimental looks for unremarkable websites",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/BlackrockDigital/startbootstrap-creative.git"
-  }
+    "url": "https://github.com/Dnsinned/personal_website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dnsinned/personal_website/issues"
+  },
+  "homepage": "https://github.com/Dnsinned/personal_website#readme",
+  "devDependencies": {
+    "css-mqpacker": "^5.0.1",
+    "cssnano": "^3.10.0",
+    "gulp": "^3.9.1",
+    "gulp-postcss": "^6.3.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^2.4.1",
+    "postcss-cssnext": "^2.9.0",
+    "postcss-import": "^9.1.0"
+  },
+  "dependencies": {}
 }
