@@ -101,9 +101,6 @@ article, .section-header {
       margin-right: auto;
     }
   }
-  @media (--xs-only) {
-    background-color: #f7f7f7;
-  }
 }
 
 .section-header {
