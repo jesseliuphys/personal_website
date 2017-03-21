@@ -1,0 +1,50 @@
+.card {
+  box-shadow: 0 1px 4px gray(0%, 0.125);
+  margin: 1rem 0;
+  & img {
+    width: 100%;
+  }
+  & a img {    
+    &.card-img-top {
+      border-bottom: 0.25rem solid transparent;
+    }
+    &.card-img-bottom {
+      border-top: 0.25rem solid transparent;
+    }
+  }
+}
+.card-block {
+  & :--heading, & p {
+    color: gray(20%);
+  }
+  & *:last-child {
+    margin-bottom: 0;
+  }
+  & img {
+    max-width: 100%;
+  }
+}
+
+.card-subtitle {
+  margin-bottom: 0.75rem;
+  &:first-of-type {
+    margin-top: 1rem;
+  }
+  &:last-of-type {
+    margin-bottom: 1rem;
+  }
+}
+
+.resource-box {
+  background-color: gray(95%);
+  border-radius: 0.25rem;
+  padding: 0.75rem 1rem 0.25rem;
+}
+.resource-links {
+  display: flex;
+  flex-wrap: wrap;
+  & a {
+    margin-right: 0.75rem;
+    margin-bottom: 1rem;
+  }
+}

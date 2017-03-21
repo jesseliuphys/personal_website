@@ -1,0 +1,18 @@
+/*
+Import sequences
+1. variables (which is by default the root selector with ONLY variables in it)
+    - NOTE that custom property SETS will go in each respective partial
+2. initialise (which contains the default html selectors)
+3. buttons (containing all the styling for the buttons, including brand variants)
+4. card (customisations of bootstrap cards and card groups, this is relatively minor)
+5. panel (custom styles for specifically formatted bootstrap columns)
+6. navbar (customisations of bootstrap navbar - coloring and such)
+*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,700');
+@import "../fonts/league-spartan/stylesheet.css";
+@import "./variables.css";
+@import "./initialise.css";
+@import "./buttons.css";
+@import "./card.css";
+@import "./panel.css";
+@import "./section-styles.css";
