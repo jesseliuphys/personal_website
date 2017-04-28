@@ -117,6 +117,7 @@
 .btn-label {
   font-size: 0.625rem;
   padding-bottom: 0.25em;
+  font-family: var(--font-family-base);
 }
 
 
