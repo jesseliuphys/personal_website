@@ -14,7 +14,7 @@
   }
 }
 .card-block {
-  & :--heading, & p {
+  & > :--heading, & p {
     color: gray(20%);
   }
   & *:last-child {
@@ -24,7 +24,10 @@
     max-width: 100%;
   }
 }
-
+.card-title, .card-subtitle {
+  font-family: var(--font-family-base);
+  font-weight: 700;
+}
 .card-subtitle {
   margin-bottom: 0.75rem;
   &:first-of-type {

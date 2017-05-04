@@ -12,7 +12,7 @@ Import sequences
 @import "../fonts/league-spartan/stylesheet.css";
 @import "./variables.css";
 @import "./initialise.css";
-@import "./buttons.css";
 @import "./card.css";
+@import "./buttons.css";
 @import "./panel.css";
 @import "./section-styles.css";
