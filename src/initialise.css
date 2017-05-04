@@ -17,7 +17,7 @@ p {
 }
 
 nav, header, footer, .btn, :--heading {
-  font-family: 'League Spartan';
+  font-family: var(--font-family-display);
 }
 
 :--heading {
