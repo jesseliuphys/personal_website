@@ -8,7 +8,7 @@ var sourcemaps = require('gulp-sourcemaps');
 var rename = require('gulp-rename');
 
 // default task is to begin watching the css source directory
-gulp.task('default', ['watch']);
+gulp.task('default', gulp.series(watch));
 
 // 'css' task is the PostCSS "compilation"
 gulp.task('css', function () {
@@ -33,6 +33,6 @@ gulp.task('css', function () {
 
 // 'watch' task monitors the css source directory for changes
 // execute 'css' and 'minify' if changes made
-gulp.task('watch', function() {
-  gulp.watch('./src/*.css', ['css']);
-});
+function watch() {
+  gulp.watch('./src/*.css', gulp.series('css'));
+}
