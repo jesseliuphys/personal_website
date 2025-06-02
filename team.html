@@ -20,7 +20,8 @@
   <!-- Font Awsome -->
   <script src="https://use.fontawesome.com/d3df8c6bdc.js"></script> 
 </head>
-<body id="home">
+<body id="team">
+
   <nav class="navbar navbar-toggleable-sm navbar-inverse fixed-top">
     <div class="container">
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,14 +30,14 @@
       <a class="navbar-brand" href="index.html">Jesse Liu</a>
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
+            <a class="nav-link" href="about.html">About<span class="sr-only"></span></a>
           </li>
-          <li class="nav-item ">
-            <a class="nav-link" href="team.html">Team</a>
+          <li class="nav-item active">
+            <a class="nav-link" href="team.html">Team<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="research.html">Research</a>
@@ -56,36 +57,57 @@
   </nav>
 
   <header>
-      <div class="header-subtitle">
-        <h3 class="section-title">Welcome to Jesse Liu's Group</h3><hr>
-        <p>Experimental Particle Physics / New York University</p><hr>
-        <p>New Physics / Silicon Detectors / ATLAS Experiment</p>
-      </div>     
+    <h1 class="header-title">Team</h1>   
   </header>
 
-  <section id="news">
-    <div class="container section-header">
-      <h3 class="section-title">News</h3>
-      <ul class="list-group">
-        <li class="list-group-item">May 27, 2025: Welcome to Amelia Stevens joining the group for summer research after graduating from Haverford College.</li>
-        <li class="list-group-item">January 2, 2025: JL joins NYU as Assistant Professor of Physics from Trinity College, University of Cambridge.</li>
-      </ul>
+  <section id="about-team">
+    <div class="container section-content flex-column">   
+      <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-4 text-center">
+          <img src="img/self2.jpg" class="img-fluid gallery" alt="Jesse Liu" >
+          <p><h4>Jesse Liu</h4>
+            Assistant Professor of Physics<br>
+            DPhil University of Oxford<br>
+            <a href="cv_jesseliu.pdf" target="_blank">CV</a> | <a href="about.html">Bio</a></p>
+        </div>
+        <div class="col-md-4 text-center">
+          <img src="img/nyu-torch.jpg" class="img-fluid gallery">
+          <p><h4>Amelia Stevens</h4>
+            Graduate Researcher<br>
+            BS Haverford College<br></p>
+        </div>
+        <div class="col-md-2"></div>
+      </div>
     </div>
   </section>
 
-  <section id="contact">
-    <div class="container section-header">
-      <h3 class="section-title">Contact</h3>
-      <i class="fa fa-envelope-o fa-3x sr-contact"></i>
-      <p>
-        <a href="https://as.nyu.edu/faculty/jesse-liu.html" target="_blank">Department of Physics, New York University</a><br>
-        726 Broadway, New York, NY 10003<br>
-      </p>
-      <p>
-        jesse.liu2 [at] nyu [dot] edu
-      </p>
-    </div>
+
+  <section class="container intro">  
+    <div class="section-header">
+      <h2 class="section-title">Collaborators</h2>
+      <div class="row">
+        <div class="col-md-1"> </div>
+        <div class="col-md-5">         
+          <figure class="figure">
+            <img src="img/tauteam.jpg" class="figure-img img-fluid" alt="Tau team">
+            <figcaption class="figure-caption">Celebrating <a href="https://arxiv.org/abs/2403.06336" target="_blank">2403.06336</a> with L. Beresford and S. Clawson (DESY)</figcaption>
+          </figure> 
+        </div>  
+        <div class="col-md-5">
+          <figure class="figure">
+            <img src="img/sm-ljubljana.jpg" class="figure-img img-fluid" alt="SM group">
+            <figcaption class="figure-caption">ATLAS <a href="https://twiki.cern.ch/twiki/bin/view/AtlasPublic/StandardModelPublicResults" target="_blank">Standard Model group workshop</a> at Ljubljana</figcaption>
+          </figure>          
+        </div>  
+      </div>
+      <p>Our group enjoys a long-standing collaboration with the DESY group (<a href="https://atlas.desy.de/external_grants/lydia_beresford_yig/" target="blank">Lydia Beresford</a>, Savannah Clawson).
+        Our current analysis efforts also collaborate with the groups of Freiburg (<a href="https://uni-freiburg.de/fsw/valerie-lang-en/" target="_blank">Valerie Lang</a>), Sheffield (<a href="https://www.sheffield.ac.uk/mps/people/all-academic-staff/kristin-lohwasser" target="_blank">Kristin Lohwasser</a>), and <a href="https://www.physics.lbl.gov/directory/atlas/" target="_blank">Berkeley Lab</a> (Angira Rastogi, Simone Pagan Griso).</p>
+        <p>More broadly, we work within the ATLAS Standard Model and Inner Tracker Strips groups.</p>
+    </div> 
   </section>
+
+
 
   <!-- jQuery -->
   <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
